@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    section {
+        @apply py-8 px-[9%];
+    }
+}
+
+@layer components {
+    .button {
+        @apply px-4 py-2 bg-mainColor text-ijoStb shadow-lg rounded-full;
+    }
+    .active {
+        @apply bg-whiteMocca w-[50%] rounded-full text-ijoStb fill-ijoStb;
+    }
+    .search-focus {
+        @apply border-2 border-ijoStb outline-none;
+    }
+    .active-category {
+        @apply bg-whiteMocca text-ijoStb;
+    }
+}
